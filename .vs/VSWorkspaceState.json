@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\plannificationCours",
+    "\\plannificationCours\\back",
+    "\\plannificationCours\\back\\services",
+    "\\plannificationCours\\back\\services\\impl",
+    "\\plannificationCours\\front",
+    "\\plannificationCours\\front\\views",
+    "\\plannificationCours\\front\\views\\impl",
+    "\\plannificationCours\\presenter",
+    "\\plannificationCours\\presenter\\impl"
+  ],
+  "PreviewInSolutionExplorer": false
+}

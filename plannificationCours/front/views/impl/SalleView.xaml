@@ -1,0 +1,20 @@
+﻿<Window x:Class="plannificationCours.front.views.impl.SalleView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:plannificationCours.front.views.impl"
+        mc:Ignorable="d"
+        Title="SalleView" Height="450" Width="800">
+    <Grid>
+        <Label Content="Ajout salle" HorizontalAlignment="Left" Height="33" Margin="48,47,0,0" VerticalAlignment="Top" Width="109" FontSize="18" FontWeight="Bold"/>
+        <TextBox x:Name="inputSalleName" HorizontalAlignment="Left" Height="30" Margin="66,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" TextChanged="TextBox_TextChanged" FontSize="18"/>
+        <Button x:Name="btnAddSalle" Content="ADD" HorizontalAlignment="Left" Height="30" Margin="519,115,0,0" VerticalAlignment="Top" Width="71" FontSize="18"/>
+        <Button x:Name="btnUpSalle" Content="UP" HorizontalAlignment="Left" Height="30" Margin="612,115,0,0" VerticalAlignment="Top" Width="74" FontSize="18"/>
+        <Button x:Name="btnDelSalle" Content="DEL" HorizontalAlignment="Left" Height="30" Margin="705,115,0,0" VerticalAlignment="Top" Width="71" FontSize="18"/>
+        <Label Content="Liste Salle" HorizontalAlignment="Left" Height="31" Margin="48,193,0,0" VerticalAlignment="Top" Width="95" FontSize="18" FontWeight="Bold"/>
+        <DataGrid x:Name="dgvSalle" HorizontalAlignment="Left" Height="170" Margin="66,243,0,0" VerticalAlignment="Top" Width="620" d:ItemsSource="{d:SampleData ItemCount=0}" SelectionChanged="DataGrid_SelectionChanged"/>
+        <TextBox x:Name="salleId" HorizontalAlignment="Left" Height="15" Margin="312,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="32"/>
+
+    </Grid>
+</Window>

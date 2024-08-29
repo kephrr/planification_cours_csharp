@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\back",
+    "\\back\\data",
+    "\\back\\data\\dto",
+    "\\back\\data\\repositories",
+    "\\back\\data\\repositories\\impl",
+    "\\front",
+    "\\front\\views",
+    "\\front\\views\\impl",
+    "\\presenter",
+    "\\presenter\\impl"
+  ],
+  "SelectedNode": "\\front\\views\\impl\\SalleView.xaml",
+  "PreviewInSolutionExplorer": false
+}
